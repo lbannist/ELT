@@ -4,7 +4,7 @@ A classroom kit for getting an **OV7670 camera working with an Arduino Uno** and
 picture on a PC, with a **red / yellow / green stoplight** that tells students exactly which
 part of the build is wrong (software, camera power, or a specific data wire).
 
-![All three lights green with live video](images/All 3 lights working.JPG)
+![All three lights green with live video](../images/All%203%20lights%20working.JPG)
 
 ## Credit
 
