@@ -4,7 +4,7 @@ A classroom kit for getting an **OV7670 camera working with an Arduino Uno** and
 picture on a PC, with a **red / yellow / green stoplight** that tells students exactly which
 part of the build is wrong (software, camera power, or a specific data wire).
 
-![All three lights green with live video](../images/All%203%20lights%20working.JPG)
+![All three lights green with live video](../images/OV7670_All%203%20lights%20working.JPG)
 
 ## Credit
 
@@ -79,7 +79,7 @@ Limits: the wire check cannot see two data wires swapped (you would see wrong co
 live picture), and "camera is powered" means the camera answers over I2C - it does not measure
 voltage.
 
-![A data wire problem is flagged](docs/screenshots/5_stage3_data_wire_fault.png)
+![A data wire problem is flagged](../images/OV7670_DataWiringProblem.JPG)
 
 ## Setup
 
@@ -131,8 +131,3 @@ pyinstaller --onefile --windowed --name ArduImageCapture arduimagecapture.py
 
 Build on the kind of computer it will run on (Windows gives an `.exe`).
 
-## Licence
-
-- `arduimagecapture.py`: **[choose a licence for your own code, e.g. MIT]**
-- `sketch/ExampleUart.cpp` and `sketch/setup.h` are derived from Indrek Luuk's LiveOV7670.
-  **[Add the licence / permission note here once confirmed with Indrek.]**
