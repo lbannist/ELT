@@ -1,5 +1,7 @@
 # OV7670 Camera Stoplight for Arduino Uno (Arduino IDE 2.x)
 
+**Download the Windows program:** [ArduImageCapture.exe on the Releases page](https://github.com/lbannist/ELT/releases/tag/stoplight-v1.0)
+
 A classroom kit for getting an **OV7670 camera working with an Arduino Uno** and seeing the
 picture on a PC, with a **red / yellow / green stoplight** that tells students exactly which
 part of the build is wrong (software, camera power, or a specific data wire).
